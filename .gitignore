@@ -188,6 +188,9 @@ cython_debug/
 #  you could uncomment the following to ignore the entire vscode folder
 # .vscode/
 
+# VS Code settings with API keys
+.vscode/settings.json
+
 # Ruff stuff:
 .ruff_cache/
 
@@ -205,3 +208,11 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Blog data files (large dataset, should not be committed)
+blog.zip
+posts/
+posts.csv
+email_list.ezrabrand.csv
+*.delivers.csv
+*.opens.csv

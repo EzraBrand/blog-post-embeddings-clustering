@@ -216,3 +216,11 @@ posts.csv
 email_list.ezrabrand.csv
 *.delivers.csv
 *.opens.csv
+
+# Processed blog data (extracted content, should not be committed)
+processed_data/
+*.pkl
+*.log
+
+# Large text files from extraction
+text_files/

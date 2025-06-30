@@ -224,3 +224,27 @@ processed_data/
 
 # Large text files from extraction
 text_files/
+
+# Project-specific ignores
+# =======================
+
+# Large data files (keep processed results but exclude raw data if too large)
+processed_data/text_files/
+processed_data/*.pkl
+processed_data/*.json.bak
+
+# Temporary analysis files
+*.tmp
+*_backup.*
+analysis_*.html
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/settings.json
+.idea/
+
+# Project optimization
+PROJECT_SUMMARY.json

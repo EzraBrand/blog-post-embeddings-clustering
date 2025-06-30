@@ -18,6 +18,10 @@ import pandas as pd
 import numpy as np
 from pathlib import Path
 from typing import List, Dict, Tuple, Optional
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv()
 from tqdm import tqdm
 import json
 import time

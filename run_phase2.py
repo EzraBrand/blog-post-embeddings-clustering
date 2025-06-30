@@ -18,6 +18,10 @@ import argparse
 import logging
 from pathlib import Path
 from datetime import datetime
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv()
 
 # Load configuration
 import config
